@@ -11,7 +11,7 @@ namespace Windows修改注册表
     {
         static void Main(string[] args)
         {
-            //隐藏修复工具栏
+            //阻止安全检查对话框
             RegeditSet(HidRepairTool);
             //阻止Ie11浏览器重置后，弹出设置向导
             RegeditSet(DisableFirstRunCustomize);
